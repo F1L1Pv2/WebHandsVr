@@ -16,3 +16,10 @@ Just turn on main.py
 - Add Bridge into SteamVR
 - Fix <a href="https://www.youtube.com/watch?v=rogMoMEqXig">Perspective issue</a>
 - Make Better Readme
+
+# Contributing
+Yea, sure. But there are some rules
+
+- don't break anything
+- in pull request type what u changed
+- be serious (not really)
