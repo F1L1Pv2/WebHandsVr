@@ -61,12 +61,13 @@ while True:
                 lmArray.extend([lm[0],scrnheight-lm[1],lm[2]])
 
 
-            data+=f"{hand['type']}:{[X_real,Y_real,Z_real]}:{lmArray};"
+            data+=f"{hand['type']}:{[X_real,Y_real,Z_real]};"
+            #data+=f"{hand['type']}:{[X_real,Y_real,Z_real]}:{lmArray};"
             #data+=f"{hand['type']}:{[round(X_real),round(Y_real),round(Z_real)]};"
 
         
 
-        print(round(X_real),round(Y_real),round(Z_real))
+        print(data)
 
         socket.sendto(str.encode(data),socketAdressPort)
 
